@@ -1,5 +1,11 @@
 body {
   background: #272727;
-  font-weight: map-;
+  color: #fff;
+  font-weight: 700;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=main.css.map */
