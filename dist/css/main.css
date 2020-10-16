@@ -8,4 +8,12 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+
+.main .main__paragraph {
+  font-weight: 500;
+}
+
+.main .main__paragraph:hover {
+  color: pink;
+}
 /*# sourceMappingURL=main.css.map */

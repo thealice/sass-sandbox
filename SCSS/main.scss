@@ -16,4 +16,12 @@ body {
 .main {
     width: 80%;
     margin: 0 auto;
+
+    #{&}__paragraph {
+        font-weight: map-get($font-weights, medium);
+
+        &:hover {
+            color: pink;
+        }
+    }
 }
