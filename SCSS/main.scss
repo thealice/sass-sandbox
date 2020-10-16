@@ -4,11 +4,11 @@
     @return map-get($font-weights, $weight-name);
 }
 
-// @mixin flexCenter {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 body {
     background: $primary-color;
@@ -17,7 +17,7 @@ body {
 }
 
 .main {
-    // @include flexCenter;
+    @include flexCenter;
     width: 80%;
     margin: 0 auto;
 
