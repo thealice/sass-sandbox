@@ -32,7 +32,11 @@ body {
 
 .main {
     @include flexCenter(row);
-    width: 80%;
+    //calc in normal css can use different types
+    // width: calc(80% - 400px)
+    
+    //calc in sass (stick to same type, percentage or px or rem)
+    width: 80% - 40%;
     margin: 0 auto;
 
     #{&}__paragraph1 {
